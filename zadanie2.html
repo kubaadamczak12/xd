@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title> Zadanie 2 </title>
+		// Z użyciem pętli narysuj figurę z gwiazdek o zadanych ( wczytanych ) wymiarach a i b. (tylko dwie linie) 
+		<script type="text/javascript">
+			    var a = prompt('podaj wyraz a')
+				var b = prompt('podaj wyraz b')
+
+var spacje = ''
+
+for (i = 1; i <= (b.length - 1) / 2; i++) {
+  spacje += '&nbsp;'
+}
+
+for (var i = 1; i <= a.length; i++) {
+  document.write(spacje + '<br>')
+}
+
+var gwiazdki = ''
+for (var i = 1; i <= b.length; i++) {
+  gwiazdki = gwiazdki + ''
+}
+document.write(gwiazdki) 
+		
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
